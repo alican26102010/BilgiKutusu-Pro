@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c2732">
+  <meta name="description" content="BilgiKutusu Pro - internetsiz yerel bilgi portalı">
+  <title>BilgiKutusu Pro | Çevrimdışı Bilgi Portalı</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><div class="wrap"><div class="brand">📚 BilgiKutusu <span>Pro</span></div><span class="offline">Yerel bilgi portalı</span></div></header>
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">İNTERNETSİZ BİLGİYE ERİŞİM</p>
+      <h1>Bilgi her yerde seninle.</h1>
+      <p>Yerel Wi-Fi ağına bağlan; ansiklopedi, eğitim ve kaynaklarına internet olmadan eriş.</p>
+      <label class="search-label" for="search">Kaynaklarda ara</label>
+      <input id="search" type="search" placeholder="Örn. Wikipedia, tarım, kitap..." autocomplete="off">
+    </section>
+    <section aria-labelledby="resources-title">
+      <div class="section-head"><h2 id="resources-title">Kaynaklar</h2><p id="counter" aria-live="polite"></p></div>
+      <div class="cards" id="resources">
+        <a class="card" data-search="wikipedia ansiklopedi kiwix" href="/kiwix/"><span class="emoji">🌍</span><strong>Wikipedia ve Kiwix</strong><span>Çevrimdışı ansiklopediye git</span></a>
+        <a class="card" data-search="kitaplar pdf okuma" href="/kutuphane/Kitaplar/"><span class="emoji">📖</span><strong>Kitaplar</strong><span>Yerel kitap koleksiyonu</span></a>
+        <a class="card" data-search="tarım tarim ziraat" href="/kutuphane/Tarim/"><span class="emoji">🌱</span><strong>Tarım</strong><span>Kaynaklar ve belgeler</span></a>
+        <a class="card" data-search="balıkçılık balikcilik olta" href="/kutuphane/Balikcilik/"><span class="emoji">🎣</span><strong>Balıkçılık</strong><span>Kaynaklar ve belgeler</span></a>
+        <a class="card" data-search="eğitim egitim videoları video" href="/kutuphane/EgitimVideolari/"><span class="emoji">🎓</span><strong>Eğitim videoları</strong><span>Yerel eğitim içerikleri</span></a>
+        <a class="card" data-search="haritalar harita" href="/kutuphane/Haritalar/"><span class="emoji">🗺️</span><strong>Haritalar</strong><span>Çevrimdışı harita dosyaları</span></a>
+        <a class="card" data-search="web arşivi arsivi" href="/kutuphane/WebArsivi/"><span class="emoji">🗂️</span><strong>Web arşivi</strong><span>Kaydedilmiş sayfalar</span></a>
+        <a class="card" data-search="film filmler dizi diziler" href="/kutuphane/Filmler/"><span class="emoji">🎬</span><strong>Medya</strong><span>Yerel medya klasörü</span></a>
+      </div>
+      <p id="empty" class="empty" hidden>Aradığın kaynak bulunamadı.</p>
+      <p class="hint">Not: Klasör bağlantılarının çalışması için içeriklerin sunucuda bulunması ve sunumun yapılandırılması gerekir. Klasör listeleme güvenlik nedeniyle kapalı olabilir.</p>
+    </section>
+  </main>
+  <footer><div class="wrap">BilgiKutusu Pro · Yerel ağda çalışmak için tasarlandı · Yapay zekâ içermez</div></footer>
+</body>
+</html>

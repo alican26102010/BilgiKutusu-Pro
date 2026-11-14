@@ -1,0 +1,15 @@
+# ÖRNEK: mevcut kiwix servisini değiştirmeden önce gerçek kurulumunuzu inceleyin.
+# Çok sayıda ZIM kullanıyorsanız kurulu kiwix-serve sürümünüzün argümanlarını kontrol edin.
+[Unit]
+Description=BilgiKutusu Kiwix (örnek)
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+ExecStart=/usr/bin/kiwix-serve --port=8080 /mnt/BilgiKutusu/Wikipedia/wikipedia_tr_all_maxi_2026-09.zim
+Restart=on-failure
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target
