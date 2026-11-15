@@ -11,8 +11,8 @@ Sistem tamamen yerel olarak çalışacak şekilde tasarlanmıştır. Yapay zekâ
 🔧 Kullanılan Donanımlar
 
 * Raspberry Pi 4 Model B
-* KIOXIA EXCERIA PLUS G2 1 TB SSD
-* TP-Link TL-WN722N USB Wi-Fi adaptörü
+* 1 TB SSD
+* USB Wi-Fi adaptörü
 * Raspberry Pi dahili Wi-Fi bağlantısı
 * Güç kaynağı ve bağlantı ekipmanları
 
