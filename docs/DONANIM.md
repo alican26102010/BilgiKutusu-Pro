@@ -9,7 +9,7 @@ Bu proje Raspberry Pi üzerinde çevrimdışı bilgi paylaşmak için hazırlanm
 | Önyükleme ortamı | Uygun microSD veya yapılandırılmış USB önyükleme diski | Bir önyükleme ortamı gerekli |
 | Güç | Raspberry Pi 4 ile uyumlu USB-C, 5,1 V / 3 A önerilir | Gerekli |
 | Kablosuz bağlantı | Raspberry Pi 4 dahili Wi-Fi | Dahili Wi-Fi ile tek ağ kurulabilir |
-| İkinci kablosuz arabirim | TP-Link TL-WN722N v2/v3 USB adaptör kullanıldı | İsteğe bağlı; iki ağ isteyenlere yararlı |
+| İkinci kablosuz arabirim |USB adaptör kullanıldı | İsteğe bağlı; iki ağ isteyenlere yararlı |
 | Harici anten | Kullanılan adaptöre uyumlu anten | **İsteğe bağlı** |
 | SSD kutusu/kablosu | SSD türüne uygun USB bağlantısı | Harici SSD tercih edilirse gerekli |
 | Ethernet | Ağdan yönetim veya internet uplink | İsteğe bağlı |
