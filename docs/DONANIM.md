@@ -5,7 +5,7 @@ Bu proje Raspberry Pi üzerinde çevrimdışı bilgi paylaşmak için hazırlanm
 | Bileşen | Projede kullanılan / önerilen | Zorunluluk |
 |---|---|---|
 | Ana cihaz | Raspberry Pi 4 Model B, **2 GB RAM** | Bu sürümde kullanılan ana cihaz |
-| Depolama | **1 TB KIOXIA SSD** kullanıldı | 1 TB zorunlu değil; küçük depolama da kullanılabilir |
+| Depolama | **1 TB SSD** kullanıldı | 1 TB zorunlu değil; küçük depolama da kullanılabilir |
 | Önyükleme ortamı | Uygun microSD veya yapılandırılmış USB önyükleme diski | Bir önyükleme ortamı gerekli |
 | Güç | Raspberry Pi 4 ile uyumlu USB-C, 5,1 V / 3 A önerilir | Gerekli |
 | Kablosuz bağlantı | Raspberry Pi 4 dahili Wi-Fi | Dahili Wi-Fi ile tek ağ kurulabilir |
