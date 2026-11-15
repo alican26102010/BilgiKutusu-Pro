@@ -16,6 +16,24 @@ Sistem tamamen yerel olarak çalışacak şekilde tasarlanmıştır. Yapay zekâ
 * Raspberry Pi dahili Wi-Fi bağlantısı
 * Güç kaynağı ve bağlantı ekipmanları
 
+💻 İşletim Sistemi
+
+BilgiKutusu-Pro, Raspberry Pi OS Lite işletim sistemi üzerinde çalışmaktadır.
+
+Raspberry Pi OS Lite, Debian Linux tabanlı, grafik masaüstü arayüzü bulunmayan ve terminal üzerinden yönetilen hafif bir işletim sistemidir.
+
+Teknik Özellikler
+
+* İşletim Sistemi: Raspberry Pi OS Lite
+* Linux Dağıtımı: Debian tabanlı
+* Kullanıcı Arayüzü: Terminal (CLI)
+* Uzaktan Yönetim: SSH
+* Web Sunucusu: Nginx
+* Çevrimdışı Ansiklopedi: Kiwix
+* Depolama: 1 TB SSD
+
+Grafik masaüstü kullanılmadığı için sistem kaynakları daha verimli kullanılır. BilgiKutusu-Pro, internet bağlantısı olmadan yerel Wi-Fi ağı üzerinden hizmet verebilir.
+
 🌐 Sistem Özellikleri
 
 * İnternet olmadan çalışan yerel Wi-Fi ağı
