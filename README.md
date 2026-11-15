@@ -1,5 +1,7 @@
 # BilgiKutusu-Pro
 
+BU YAPILAN PROJE GELİŞTİRME AŞAMASINDADIR!!!
+
 📚 BilgiKutusu-Pro Nedir?
 
 BilgiKutusu-Pro, Raspberry Pi 4 kullanılarak geliştirilen, kendi Wi-Fi ağına sahip, internet bağlantısı olmadan bilgiye erişim sağlayan taşınabilir bir dijital bilgi deposudur.
