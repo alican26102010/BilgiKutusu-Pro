@@ -94,7 +94,13 @@ Katkıda bulunmadan önce bir GitHub Issue açarak önerinizi paylaşabilirsiniz
 
 ⚖️ Lisans ve İçerik Hakları
 
-Bu depoda bulunan proje açıklamaları, kaynak kodları ve yapılandırmalar için lisans henüz belirlenmemiştir.
+BilgiKutusu-Pro, © 2026 Ali Can Yılmaz tarafından belirlenen ücretsiz ve ticari olmayan kullanım lisansı kapsamında paylaşılmaktadır.
+
+Herkes projeyi ücretsiz kullanabilir, inceleyebilir, geliştirebilir ve ticari olmayan amaçlarla paylaşabilir.
+
+Projenin ticari amaçlarla kullanılması veya satılması için telif hakkı sahibinden önceden yazılı izin alınması gerekir.
+
+Ayrıntılı kullanım ve dağıtım koşulları LICENSE dosyasında belirtilmiştir.
 
 Wikipedia, Kiwix ve diğer üçüncü taraf içeriklerin kendi lisansları geçerlidir. Film, dizi, kitap ve videolar yalnızca kullanım ve dağıtım haklarının izin verdiği koşullarda eklenmelidir.
 
