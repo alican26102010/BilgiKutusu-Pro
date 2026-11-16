@@ -100,4 +100,4 @@ Projeye geliştirme önerileri, hata bildirimleri, açık lisanslı eğitim mate
 
 ## ⚖️ Lisans
 
-Bu proje **MIT Lisansı** altında korunmaktadır. Detaylı bilgi için [LICENSE](LICENSE) do
+Bu proje **MIT Lisansı** altında korunmaktadır. Detaylı bilgi için [LICENSE](LICENSE) a bakın <3 
