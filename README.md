@@ -1,111 +1,103 @@
+<div align="center">
+
 # BilgiKutusu-Pro
 
-BU YAPILAN PROJE GELİŞTİRME AŞAMASINDADIR!!!
+*İnternet olmasa da bilgiye ulaş! Raspberry Pi 4 tabanlı taşınabilir çevrimdışı bilgi deposu.*
 
-📚 BilgiKutusu-Pro Nedir?
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status: In Development](https://img.shields.io/badge/Status-In%20Development-blueviolet)](https://github.com/alicanyilmz/BilgiKutusu-Pro)
+[![OS](https://img.shields.io/badge/OS-Raspberry%20Pi%20OS%20Lite-C51A4A?logo=raspberrypi&logoColor=white)](https://www.raspberrypi.org/)
+[![Server](https://img.shields.io/badge/Server-Nginx-009639?logo=nginx&logoColor=white)](https://nginx.org/)
 
-BilgiKutusu-Pro, Raspberry Pi 4 kullanılarak geliştirilen, kendi Wi-Fi ağına sahip, internet bağlantısı olmadan bilgiye erişim sağlayan taşınabilir bir dijital bilgi deposudur.
+> ** PROJE GELİŞTİRME AŞAMASINDADIR!**
 
-Projenin temel amacı; internetin bulunmadığı kırsal bölgelerde, okullarda, afet durumlarında ve günlük yaşamda eğitim ve bilgi kaynaklarına ücretsiz erişim sağlamaktır.
+</div>
 
-Sistem tamamen yerel olarak çalışacak şekilde tasarlanmıştır. Yapay zekâ içermez ve çalışmak için internet bağlantısına ihtiyaç duymaz.
+---
 
-🔧 Kullanılan Donanımlar
+##  BilgiKutusu-Pro Nedir?
 
-* Raspberry Pi 4 Model B
-* 1 TB SSD
-* USB Wi-Fi adaptörü
-* Raspberry Pi dahili Wi-Fi bağlantısı
-* Güç kaynağı ve bağlantı ekipmanları
+**BilgiKutusu-Pro**, Raspberry Pi 4 kullanılarak geliştirilen, kendi Wi-Fi ağına sahip ve internet bağlantısı gerektirmeyen taşınabilir bir dijital bilgi deposudur.
 
-💻 İşletim Sistemi
+Projenin temel amacı; internetin bulunmadığı kırsal bölgelerde, okullarda, afet durumlarında ve günlük yaşamda eğitim ve bilgi kaynaklarına ücretsiz ve kesintisiz erişim sağlamaktır. Sistem tamamen yerel olarak çalışır, yapay zekâ içermez ve hiçbir dış ağ bağlantısına ihtiyaç duymaz.
 
-BilgiKutusu-Pro, Raspberry Pi OS Lite işletim sistemi üzerinde çalışmaktadır.
+---
 
-Raspberry Pi OS Lite, Debian Linux tabanlı, grafik masaüstü arayüzü bulunmayan ve terminal üzerinden yönetilen hafif bir işletim sistemidir.
+##  Donanım & Yazılım Altyapısı
 
-Teknik Özellikler
+### 🔧 Donanım Bileşenleri
+- **Ana Bilgisayar:** Raspberry Pi 4 Model B
+- **Depolama:** 1 TB SSD
+- **Ağ:** Dahili Wi-Fi + Harici USB Wi-Fi Adaptörü
+- **Güç:** Uyumlu güç kaynağı ve bağlantı ekipmanları
 
-* İşletim Sistemi: Raspberry Pi OS Lite
-* Linux Dağıtımı: Debian tabanlı
-* Kullanıcı Arayüzü: Terminal (CLI)
-* Uzaktan Yönetim: SSH
-* Web Sunucusu: Nginx
-* Çevrimdışı Ansiklopedi: Kiwix
-* Depolama: 1 TB SSD
+###  Yazılım Yığını
+| Bileşen | Seçilen Teknoloji | Açıklama |
+| :--- | :--- | :--- |
+| **İşletim Sistemi** | Raspberry Pi OS Lite | Debian Linux tabanlı, hafif CLI ortamı |
+| **Uzaktan Yönetim** | SSH | Güvenli terminal yönetimi |
+| **Web Sunucusu** | Nginx | Yerel portal ve servis sunumu |
+| **Ansiklopedi Altyapısı**| Kiwix | Çevrimdışı Wikipedia ve içerik okuyucu |
 
-Grafik masaüstü kullanılmadığı için sistem kaynakları daha verimli kullanılır. BilgiKutusu-Pro, internet bağlantısı olmadan yerel Wi-Fi ağı üzerinden hizmet verebilir.
+---
 
-🌐 Sistem Özellikleri
+##  Sistem Özellikleri
 
-* İnternet olmadan çalışan yerel Wi-Fi ağı
-* BilgiKutusu ve BilgiKutusu-Dahili kablosuz ağları
-* Telefon, tablet ve bilgisayardan erişim
-* Nginx tabanlı yerel web portalı
-* Kiwix ile çevrimdışı ansiklopedi erişimi
-* Türkçe ve İngilizce Wikipedia arşivleri
-* 1 TB SSD üzerinde yerel dosya depolama
-* Açık kaynak yazılım altyapısı
+-  **Yerel Kablosuz Ağ:** İnternete gerek duymadan `BilgiKutusu` ve `BilgiKutusu-Dahili` ağları üzerinden yayın.
+-  **Çoklu Cihaz Desteği:** Akıllı telefon, tablet ve dizüstü bilgisayarlardan sorunsuz tarayıcı erişimi.
+-  **Zengin Arşiv:** Türkçe ve İngilizce Wikipedia dökümleri ve Nginx tabanlı sezgisel yerel portal.
+-  **Optimize Kaynak Kullanımı:** Grafik arayüz (Desktop GUI) barındırmadığı için tüm kaynaklar servis performansına odaklanır.
 
-📖 İçerik Kütüphanesi
+---
 
-Mevcut içerikler
+##  İçerik Kütüphanesi
 
-* Türkçe Wikipedia
-* İngilizce Wikipedia
-* Yerel web portalı
+###  Mevcut İçerikler
+- Türkçe Wikipedia Arşivi
+- İngilizce Wikipedia Arşivi
+- Yerel Bilgi Portalı Arayüzü
 
-Eklenmesi Planlanan İçerikler
+###  Planlanan İçerikler
+- [ ]  Eğitim videoları ve ders içerikleri
+- [ ]  Türkiye’nin ayrıntılı çevrimdışı haritaları
+- [ ]  Türkçe ve İngilizce e-kitap arşivleri
+- [ ]  Tarım, bitki yetiştiriciliği ve hayvancılık rehberleri
+- [ ]  Balıkçılık ve doğada hayatta kalma/kampçılık bilgileri
+- [ ]  Deprem, sel ve afet hazırlık rehberleri
+- [ ]  Yerel film, belgesel ve dizi arşivi
+- [ ]  Çevrimdışı web sayfaları kopyaları (Kiwix uyumlu)
+- [ ]  Teknik PDF dokümanları ve kılavuzlar
 
-* 🎓 Eğitim videoları ve ders kaynakları
-* 🗺️ Türkiye’nin ayrıntılı çevrimdışı haritaları
-* 📚 Türkçe ve İngilizce kitaplar
-* 🌾 Tarım ve bitki yetiştiriciliği kaynakları
-* 🎣 Balıkçılık rehberleri ve eğitim videoları
-* 🏕️ Doğada hayatta kalma ve kampçılık bilgileri
-* 🚨 Deprem, sel ve afet hazırlık rehberleri
-* 🎬 Yerel film ve dizi arşivi
-* 🌍 Çevrimdışı web sayfaları
-* 📄 PDF belgeleri ve teknik kaynaklar
+*(Planlanan içerikler depolama kapasitesi ve lisans koşullarına göre aşamalı olarak eklenecektir.)*
 
-Planlanan içerikler depolama kapasitesi, lisans koşulları ve kaynakların erişilebilirliğine göre aşamalı olarak eklenecektir.
+---
 
-📱 Nasıl Kullanılır?
+##  Nasıl Kullanılır?
 
-1. Raspberry Pi cihazını çalıştırın.
-2. Telefon veya bilgisayarınızdan BilgiKutusu Wi-Fi ağına bağlanın.
-3. Tarayıcınızdan yerel bilgi portalına erişin.
-4. Ansiklopedileri, kitapları ve diğer çevrimdışı içerikleri kullanın.
+1. **Sistemi Başlatın:** Raspberry Pi 4 cihazınıza uygun güç bağlantısını yapın.
+2. **Kablosuz Ağa Bağlanın:** Telefon veya bilgisayarınızdan **BilgiKutusu** Wi-Fi ağına bağlanın.
+3. **Portala Gidin:** Tarayıcınızı açarak yerel bilgi portalı adresine gidin. *(Not: Yerel portal IP adresi kurulum ayarlarınıza göre değişiklik gösterebilir).*
+4. **Keşfedin:** Ansiklopedileri, kılavuzları ve çevrimdışı içerikleri özgürce kullanın.
 
-Not: Yerel portalın erişim adresi kurulum ayarlarına göre değişebilir.
+---
 
-🎯 Projenin Hedefleri
+##  Projenin Hedefleri
 
-* İnternet bağımlılığı olmadan bilgiye erişim sağlamak
-* Eğitimde dijital kaynakları yaygınlaştırmak
-* Afet durumlarında temel bilgilere erişimi kolaylaştırmak
-* Açık kaynak yazılımlardan yararlanmak
-* Taşınabilir ve düşük maliyetli bir bilgi sistemi geliştirmek
-* Sistemi yeni içeriklerle sürekli genişletmek
+- İnternet altyapısına bağımlı kalmadan bilgiye erişimi demokratikleştirmek.
+- Eğitimde dijital kaynakları dezavantajlı bölgelere ulaştırmak.
+- Afet ve acil durum senaryolarında hayati bilgilere anında ulaşılmasını sağlamak.
+- Tamamen açık kaynaklı yazılımlar üzerine ölçeklenebilir ve düşük maliyetli bir mimari kurmak.
 
-🤝 Katkıda Bulunma
+---
 
-Projeye geliştirme önerileri, hata bildirimleri, açık lisanslı eğitim kaynakları ve teknik iyileştirmelerle katkıda bulunabilirsiniz.
+##  Katkıda Bulunma
 
-Katkıda bulunmadan önce bir GitHub Issue açarak önerinizi paylaşabilirsiniz.
+Projeye geliştirme önerileri, hata bildirimleri, açık lisanslı eğitim materyalleri veya teknik optimizasyonlarla katkıda bulunabilirsiniz:
+1. Bir **Issue** açarak önerinizi veya bulduğunuz hatayı paylaşın.
+2. Katkı yapmak istediğiniz alanlar için pull request gönderebilirsiniz.
 
-⚖️ Lisans ve İçerik Hakları
+---
 
-BilgiKutusu-Pro, © 2026 Ali Can Yılmaz tarafından belirlenen ücretsiz ve ticari olmayan kullanım lisansı kapsamında paylaşılmaktadır.
+## ⚖️ Lisans
 
-Herkes projeyi ücretsiz kullanabilir, inceleyebilir, geliştirebilir ve ticari olmayan amaçlarla paylaşabilir.
-
-Projenin ticari amaçlarla kullanılması veya satılması için telif hakkı sahibinden önceden yazılı izin alınması gerekir.
-
-Ayrıntılı kullanım ve dağıtım koşulları LICENSE dosyasında belirtilmiştir.
-
-Wikipedia, Kiwix ve diğer üçüncü taraf içeriklerin kendi lisansları geçerlidir. Film, dizi, kitap ve videolar yalnızca kullanım ve dağıtım haklarının izin verdiği koşullarda eklenmelidir.
-
-⸻
-
-BilgiKutusu-Pro — İnternet olmasa da bilgiye ulaş!
+Bu proje **MIT Lisansı** altında korunmaktadır. Detaylı bilgi için [LICENSE](LICENSE) a bakın <3 
